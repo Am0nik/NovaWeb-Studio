@@ -1,0 +1,242 @@
+* html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  line-height: 1;
+  display: inline-block;
+}
+
+
+header {
+    background-color: #131315;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+}
+
+
+::-webkit-scrollbar{
+    background-color: #eaa70a;
+    border-radius: 30px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    border-radius: 30px;
+    width: 5px;
+}
+
+@media (orientation: portrait){
+    header a{
+        color: #ececea;
+        font-size: 4vh;
+        text-decoration: none;
+        margin-top: auto;
+        font-weight: bold;
+        margin-bottom: auto;
+    }
+    h1{
+        font-size: 3vh;
+    }
+    p {
+        font-size: 2vh;
+    }
+    h2{
+        font-size: 2.5vh;
+    }
+    ul{
+        font-size: 2vh;
+    }
+}
+
+@media (orientation: landscape){
+    header a{
+        color: #ececea;
+        font-size: 4vw;
+        text-decoration: none;
+        margin-top: auto;
+        font-weight: bold;
+        margin-bottom: auto;
+    }
+    h1{
+        font-size: 3vw;
+    }
+    p {
+        font-size: 2vw;
+    }
+    h2{
+        font-size: 2.5vw;
+    }
+    ul{
+        font-size: 2vw;
+    }
+}
+
+body {
+    background-color: #1d1d21;
+    color: #FFFFFF;
+    line-height: 1;
+}
+
+.logo{
+    height: 10vh;
+    width: 10vh;
+}
+
+@media (orientation: portrait){
+    .values-image{
+        height: 10vh;
+        width: 10vh;
+    }
+}
+@media (orientation: landscape){
+    .values-image{
+        height: 20vh;
+        width: 20vh;
+    }
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    align-items: center;    
+    padding: 0 20px;
+}
+
+.hero{
+    text-align: center;
+}
+
+.button-contact{
+    background-color: #ffbb3c;
+    padding: 10px 20px;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(218, 253, 255);
+    font-weight: bold;
+    align-items: center;
+    border-radius: 30px;
+}
+.button-contact:hover {
+    background-color: #dfa334;
+}
+@media (orientation: portrait){
+    .button-contact{
+        font-size: 3vh;
+        width: 50%;
+    }
+}
+@media (orientation: landscape){
+    .button-contact{
+        font-size: 3vw;
+        width: 30%;
+    }
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services ul{
+    text-align: left;
+}
+.services li{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media (orientation: portrait){
+    .services ul{
+        width: 60%;
+    }
+    .small-text{
+        margin-top: 5px;
+        font-size: 1vh;
+        display: inline-block;
+        line-height: 1.2;
+    }
+}
+@media (orientation: landscape){
+    .services ul{
+        width: 35%;
+    }
+    .small-text{
+        margin-top: 10px;
+        font-size: 1vw;
+        display: inline-block;
+        line-height: 1.2;
+    }
+}
+
+.contact{
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    color: #19191b;
+    border-radius:20px;
+    display: block;
+    text-align: center;
+}
+.contact input{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.button-submit{
+    background-color: #ffbb3c;
+    color: #19191b;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.button-submit:hover {
+    background-color: #dfa334;
+}
+
+@media (orientation: portrait){
+    .contact{
+        padding: 20px;
+        width: 80%;
+    }
+    .contact input{
+        width: 80%;
+        padding:10px;
+    }
+    .contact label{
+        font-size: 2vh;
+    }
+    .button-submit{
+        font-size: 2vh;
+        padding: 10px 20px;
+    }
+}
+@media (orientation: landscape){
+    .contact{
+        padding: 20px;
+        width: 50%;
+    }
+    .contact input{
+        width: 50%;
+        padding: 15px;
+    }
+    .contact label{
+        font-size: 2vw;
+    }
+    .button-submit{
+        font-size: 2vw;
+        padding: 15px 30px;
+    }
+}

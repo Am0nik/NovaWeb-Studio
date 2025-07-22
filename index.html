@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - NovaWeb Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="media/img/web-logo.png" alt="NovaWeb Studio Logo" class="logo">
+            <nav class="nav" style="margin-right: auto;">
+                <a href="index.html" style="margin-top: auto;margin-bottom: auto;color: azure;">NovaWeb Studio</a>
+            </nav>
+            <nav class="nav" style="margin-left: auto;">
+                <a href="about.html">О нас</a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Привет! Мы — NovaWeb Studio</h1>
+                <p>Создаём современные сайты и интерфейсы, которые работают.</p>
+                <a href="#contact" class="button-contact">Связаться</a>
+            </section>
+            <hr style="width: 90%;margin-top: 50px;margin-bottom: 30px;">
+            <div class="services">
+                <h2>Наши основные услуги:</h2>
+                <ul style="margin-left: auto;margin-right: auto;">
+                    <li>
+                        Разработка сайтов
+                        <br>
+                        <small class="small-text">
+                            Мы создаём адаптивные и функциональные сайты, которые легко использовать на любых устройствах.
+                        </small>
+                    </li>
+                    <li>
+                        Дизайн интерфейсов
+                        <br>
+                        <small class="small-text">
+                            Наши дизайнеры разрабатывают уникальные и удобные интерфейсы, которые привлекают внимание пользователей.
+                        </small>
+                    </li>
+                    <li>
+                        Поддержка и обслуживание
+                        <br>
+                        <small class="small-text">
+                            Мы предлагаем услуги по поддержке и обслуживанию сайтов, чтобы вы могли сосредоточиться на своём бизнесе.
+                        </small>
+                    </li>
+            </div>
+            <hr style="width: 90%;margin-top: 50px;margin-bottom: 30px;">
+            <section class="contact" id="contact">
+                <h2>Свяжитесь с нами</h2>
+                <hr style="width: 60%;margin-left: auto;margin-right: auto;">
+                <form action="#" method="post" style="display: flex; flex-direction: column; gap: 10px; max-width: 90%;margin-left: auto;margin-right: auto;">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Номер телефона:</label>
+                    <input type="phone" id="phone" name="phone" required>
+                    <button type="submit" class="button-submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
